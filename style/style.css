@@ -236,7 +236,7 @@ header .nav .navbar-toggle i{
 }
 .profile .profile-content .left p{
     color: var(--color2);
-    font-size: 12px;
+/*     font-size: 12px; */
     
 }
 .profile .profile-content .left p span{
@@ -248,7 +248,7 @@ header .nav .navbar-toggle i{
     align-items: center;
 }
 .profile .profile-content .right .profile-image{
-    width: 300px;
+/*     width: 300px; */
     position: relative;
     z-index: 2;
     cursor: pointer;
@@ -278,8 +278,6 @@ header .nav .navbar-toggle i{
     .profile .profile-content{
         flex-direction: column-reverse;
         margin-top: 30px;
-        align-items: center;
-        justify-self: center;
     }
     .profile .profile-content .left{
         text-align: center;
