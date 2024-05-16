@@ -207,12 +207,11 @@ header .nav .navbar-toggle i{
 /* start profile-------------------------------------------------------- */
 .profile{
     background-color: var(--bg-color1);
-    height:calc(100vh - 40px) ;
 }
 .profile .profile-content{
     justify-content: space-around;
     height: 100%;
-    margin-top: 70px;
+    height:calc(100vh - 40px) ;
     
 }
 .profile .profile-content .left{
@@ -236,7 +235,7 @@ header .nav .navbar-toggle i{
 }
 .profile .profile-content .left p{
     color: var(--color2);
-/*     font-size: 12px; */
+    font-size: 12px;
     
 }
 .profile .profile-content .left p span{
@@ -277,7 +276,9 @@ header .nav .navbar-toggle i{
 @media (max-width:550px) {
     .profile .profile-content{
         flex-direction: column-reverse;
-        margin-top: 30px;
+        /* margin-top: 30px; */
+        align-items: center;
+        justify-content: center;
     }
     .profile .profile-content .left{
         text-align: center;
@@ -285,7 +286,9 @@ header .nav .navbar-toggle i{
     .profile .profile-content .left h1{
         font-size: 35px;
     }
-    
+    /* .profile .profile-content .right .profile-image{
+        width: 250px;
+    } */
 }
 /* end profile-------------------------------------------------------- */
 
